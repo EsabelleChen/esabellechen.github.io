@@ -22,7 +22,7 @@ h1 {
 			}
 
 @font-face {
-    font-family: pprightserif-compactdark;
+    font-family: 'pprightserif-compactdark';
     src: url('fonts/pprightserif-compactdark.woff');
 }
 @font-face {
@@ -31,7 +31,7 @@ h1 {
 
 }
 
-heading {    font-family:pprightserif-compactdark, serif;
+heading {    font-family:'pprightserif-compactdark', serif;
             font-weight: 500rem;
             font-size: 800%;
 
@@ -48,14 +48,14 @@ h2 {
 			font-size: 2rem;}
 
 h3 {
-            font-family: pprightserif-compactdark, serif;
+            font-family: 'pprightserif-compactdark', serif;
             margin: 3rem;
             padding: 2%;
             font-weight: 500rem;
             font-size: 2rem}
 
 button {padding: 1rem;
-    font-family: pprightserif-compactdark;
+    font-family: 'pprightserif-compactdark';
     text-decoration: none;
     background-color: whitesmoke;
     font-size: 20px;
