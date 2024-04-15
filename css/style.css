@@ -8,9 +8,12 @@
     @media (min-width: 1200px) {
         h1 {color:orange;}
     }
-img {width: 30vw
-	height: auto}
 
+
+
+
+
+}
 h2 {
           
 			font-family: sans-serif;
@@ -206,7 +209,6 @@ div.relative {
   grid-template-columns: auto auto;
   gap: 5px;
   padding: 0px;
-
 }
 
 .grid-container > div {
@@ -268,13 +270,9 @@ p {
 
 .image-container img {
     width: auto;
-    height: auto;
+    height: 600px;
     margin-right: 10px; /* Add space between images */
-}
-@media (max-width: 800px) {
-.image-container {
- 
- columns: auto; /*??Not really understanding how to make my images responsive and become one column in on small device. */
+    columns: auto; /*??Not really understanding how to make my images responsive and become one column in on small device. */
   gap: 5px;
   padding: 0px;
 }
