@@ -27,6 +27,7 @@ img {
         /* Set max-width to 100% and height to auto to maintain aspect ratio */
         max-width: 100%;
         height: auto;
+	    min-width:100%
     }
 }
 
