@@ -217,6 +217,7 @@ div.relative {
   grid-template-columns: auto auto;
   gap: 5px;
   padding: 0px;
+height: auto
 }
 
 .grid-container > div {
