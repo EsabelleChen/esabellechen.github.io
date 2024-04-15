@@ -14,6 +14,20 @@ img {
 			height: auto;
 		}
 
+/* Add this CSS to make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    img {
+        /* Set max-width to 100% and height to auto to maintain aspect ratio */
+        max-width: 100%;
+        height: auto;
+    }
+}
 
 
 h2 {
