@@ -4,7 +4,11 @@
 
 	<!--2. internal-->
 	<link rel="stylesheet" href="css/style.css">
-
+<style>
+    @font-face {
+    font-family: 'pprightserif-compactdark';
+    src: url('fonts/pprightserif-compactdark.woff');
+</style>
 </head>
 
 <meta charset="UTF-8">
@@ -100,6 +104,14 @@ you to new and familiar places.
     flex-direction: column;
     align-items:center;
 
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    img {
+        /* Limit the maximum width of the images */
+        max-width: calc(100vw - 20px); /* Adjust the value as needed */
+        height: auto;
+    }
 }
 </style>
     </div>
