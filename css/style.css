@@ -233,9 +233,9 @@ div.aboutmeheader {
     transform: rotate(-90deg);
     position: fixed;
     z-index: -5;
-    margin: -10rem;
+    margin: -13rem;
     margin-block-start: 5rem;
-    font-size: 90%;
+    font-size: 80pts;
 
 }
 div.contactheader {
