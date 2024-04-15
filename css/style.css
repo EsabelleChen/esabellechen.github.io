@@ -289,7 +289,7 @@ p {
 
 .image-container img {
     width: auto;
-    height: 100%;
+    height: auto;
     margin-right: 10px; /* Add space between images */
 }
 @media (max-width: 800px) {
